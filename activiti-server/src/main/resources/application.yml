@@ -1,3 +1,12 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
 spring:
   application:
     name: activiti-demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/activiti?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456

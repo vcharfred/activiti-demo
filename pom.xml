@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>top.vchar</groupId>
     <artifactId>activiti-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>activiti-demo</name>
     <description>activiti-demo</description>
@@ -24,7 +24,7 @@
                 <!-- 从Spring Boot导入依赖关系管理 -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.2.5</version>
+                <version>2.7.18</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
